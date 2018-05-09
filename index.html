@@ -10,41 +10,70 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
 
   <!-- FONTS -->
-  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900" rel="stylesheet">
 
   <!-- STYLES -->
   <link rel="stylesheet" href="css/app.css">
 </head>
 <body>
-	<nav id="mainav" class="fl_right">
-        <ul class="clear">
-          <li class="active"><a href="index.html">Home</a></li>
-          <li><a class="drop" href="#">Pages</a>
-            <ul>
-              <li><a href="pages/gallery.html">About us</a></li>
-              <li><a href="pages/full-width.html">Company</a></li>
-              <li><a href="pages/sidebar-left.html">Our process</a></li>
-              <li><a href="pages/sidebar-right.html">Services</a></li>
-              <li><a href="pages/basic-grid.html">Contact us</a></li>
-              <li><a href="pages/basic-grid.html">F.A.Q.</a></li>
-            </ul>
+    <nav class="mainav">
+      <ul>
+        <li><a class="active nav_home current_page" href="index.html">Home</a></li>
+        <li><a class="drop nav_pages" href="#">Pages <span class="arrow"></span></a>
+          <ul class="dropdown_menu">
+            <li>
+              <div class="wrapperForDropdomnUpArrow">
+                <div class="dropdownUpArrow">
+                </div>
+              </div>
+              <a class="drop first_elem" href="pages/gallery.html">About us <span class="arrow"></span></a>
+              <ul class="dropdown_menu dropdown_small">
+                <li class="first_elem"><a href="#">History</a></li>
+                <li><a href="#">Founders</a></li>
+                <li class="last_elem"><a href="#">Career</a></li>
+              </ul>
+            </li>
+            <li><a href="pages/full-width.html">Company</a></li>
+            <li><a href="pages/sidebar-left.html">Our process</a></li>
+            <li><a href="pages/sidebar-right.html">Services</a></li>
+            <li><a href="pages/basic-grid.html">Contact us</a></li>
+            <li><a class="last_elem" href="pages/basic-grid.html">F.A.Q.</a></li>
+          </ul>
+        </li>
+        <li><a class="drop nav_pages" href="#">Elements <span class="arrow"></span></a>
+          <ul class="dropdown_menu elements">
+            <li>
+              <div class="wrapperForDropdomnUpArrow">
+                <div class="dropdownUpArrow">
+                </div>
+              </div>
+              <a class="drop first_elem" href="pages/gallery.html">About us <span class="arrow"></span></a>
+              <ul class="dropdown_menu dropdown_small">
+                <li class="first_elem"><a href="#">History</a></li>
+                <li><a href="#">Founders</a></li>
+                <li class="last_elem"><a href="#">Career</a></li>
+              </ul>
+            </li>
+            <li><a href="pages/full-width.html">Company</a></li>
+            <li><a href="pages/sidebar-left.html">Our process</a></li>
+            <li><a href="pages/sidebar-right.html">Services</a></li>
+            <li><a href="pages/basic-grid.html">Contact us</a></li>
+            <li><a class="last_elem" href="pages/basic-grid.html">F.A.Q.</a></li>
+          </ul>
+        </li>
+        <li><a class="nav_product" href="#">Product</a></li>
+        <li><a class="nav_blog" href="#">Blog</a></li>
+        <li><a class="nav_work" href="#">Work</a></li>
+        <li><a class="nav_startAproject" href="#">Start a project</a></li>
+        <li  class="menuIcon">
+          <div>
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
           </li>
-          <li><a class="drop" href="#">Elements</a>
-            <ul>
-              <li><a href="pages/gallery.html">About us</a></li>
-              <li><a href="pages/full-width.html">Company</a></li>
-              <li><a href="pages/sidebar-left.html">Our process</a></li>
-              <li><a href="pages/sidebar-right.html">Services</a></li>
-              <li><a href="pages/basic-grid.html">Contact us</a></li>
-              <li><a href="pages/basic-grid.html">F.A.Q.</a></li>
-            </ul>
-          </li>
-          <li><a href="#">Product</a></li>
-          <li><a href="#">Blow</a></li>
-          <li><a href="#">Work</a></li>
-          <li><a href="#">Start a project</a></li>
-        </ul>
-      </nav>
+      </ul>
+    </nav>
+
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 
