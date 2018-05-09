@@ -19,7 +19,8 @@ nav ul, nav ol {
   opacity: 0.5;
   text-transform: uppercase;
   text-decoration: none;
-  display: inline-block; }
+  display: inline-block;
+  transition: 0.5s; }
 
 .mainav a:hover:active {
   background-color: #000;
@@ -118,10 +119,13 @@ a .arrow {
   margin: 0; }
 
 .mainav ul li > ul {
-  display: none; }
+  visibility: hidden;
+  opacity: 0; }
 
 .mainav ul li:hover > ul {
-  display: block; }
+  visibility: visible;
+  opacity: 1;
+  transition: 0.5s; }
 
 .wrapperForDropdomnUpArrow {
   background-color: #fff;
