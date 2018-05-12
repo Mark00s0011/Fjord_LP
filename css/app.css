@@ -185,6 +185,71 @@ img {
   color: #232323;
 }
 
+.block_2-iphone {
+  max-width: 1600px;
+}
+
+.block_2-iphone__window {
+  width: 384px;
+  height: 674px;
+  border-radius: 2px;
+  border: 1px solid red;
+}
+
+.block_2-iphone__window a {
+  background-color: #000;
+  color: #fffefe;
+  line-height: 60px;
+  letter-spacing: 0.6px;
+  border-radius: 0 0 2px 2px;
+}
+
+.block_2-iphone__window__website {
+  margin: auto auto 50px auto;
+}
+
+.block_2-iphone__window__business {
+  margin: 39px auto 52px auto;
+}
+
+.block_2-iphone__window__artist {
+  margin-bottom: 56px;
+}
+
+.block_2-iphone__window__website .block_2-iphone__window__img {
+  margin-top: -10px;
+}
+
+.block_2-iphone__window__business .block_2-iphone__window__img {
+  margin-top: -15px;
+}
+
+.block_2-iphone__window__artist .block_2-iphone__window__img {
+  margin-top: -8px;
+}
+
+.block_2-iphone__window__website, .block_2-iphone__window__business, .block_2-iphone__window__artist {
+  margin-left: 34px;
+}
+
+.block_2-iphone__window__title {
+  font-size: 1.5em;
+  line-height: 24px;
+  display: inline-block;
+  margin-bottom: 15px;
+}
+
+.block_2-iphone__window__text {
+  font-size: 1.1666666667em;
+  opacity: 0.5;
+  line-height: 22px;
+}
+
+.block_2-iphone__window__title-and-text {
+  max-width: 266px;
+  margin-left: 24px;
+}
+
 /* ==============================
    MODULE STYLES
    @mixin ============================= */
