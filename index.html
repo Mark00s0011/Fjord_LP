@@ -1,102 +1,173 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+
 <head>
-  <title>Fjord Landing Page</title>
+	<title>Fjord Landing Page</title>
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+	 crossorigin="anonymous">
 
-  <!-- FONTS -->
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+	<!-- FONTS -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900" rel="stylesheet">
 
-  <!-- STYLES -->
-  <link rel="stylesheet" href="css/app.css">
+	<!-- STYLES -->
+	<link rel="stylesheet" href="css/app.css">
 </head>
+
 <body>
-    <nav class="mainav">
-      <ul>
-        <li><a class="active nav_home current_page" href="index.html">Home</a></li>
-        <li><a class="drop nav_pages" href="#">Pages <span class="arrow"></span></a>
-          <ul class="dropdown_menu">
-            <li>
-              <div class="wrapperForDropdomnUpArrow">
-                <div class="dropdownUpArrow">
-                </div>
-              </div>
-              <a class="drop first_elem" href="pages/gallery.html">About us <span class="arrow"></span></a>
-              <ul class="dropdown_menu dropdown_small">
-                <div>
-                  <div class="wrapperForDropdomnLeftArrow">
-                    <div class="dropdownLeftArrow">
-                    </div>
-                  </div>
-                  <div>
-                    <li class="first_elem"><a href="#">History</a></li>
-                    <li><a href="#">Founders</a></li>
-                    <li class="last_elem"><a href="#">Career</a></li>
-                  </div>
-                </div>
-              </ul>
-            </li>
-            <li><a href="pages/full-width.html">Company</a></li>
-            <li><a href="pages/sidebar-left.html">Our process</a></li>
-            <li><a href="pages/sidebar-right.html">Services</a></li>
-            <li><a href="pages/basic-grid.html">Contact us</a></li>
-            <li><a class="last_elem" href="pages/basic-grid.html">F.A.Q.</a></li>
-          </ul>
-        </li>
-        <li><a class="drop nav_pages" href="#">Elements <span class="arrow"></span></a>
-          <ul class="dropdown_menu elements">
-            <li>
-              <div class="wrapperForDropdomnUpArrow">
-                <div class="dropdownUpArrow">
-                </div>
-              </div>
-              <a class="drop first_elem" href="pages/gallery.html">About us <span class="arrow"></span></a>
-              <ul class="dropdown_menu dropdown_small">
-                <div>
-                  <div class="wrapperForDropdomnLeftArrow">
-                    <div class="dropdownLeftArrow">
-                    </div>
-                  </div>
-                  <div>
-                    <li class="first_elem"><a href="#">History</a></li>
-                    <li><a href="#">Founders</a></li>
-                    <li class="last_elem"><a href="#">Career</a></li>
-                  </div>
-                </div>
-              </ul>
-            </li>
-            <li><a href="pages/full-width.html">Company</a></li>
-            <li><a href="pages/sidebar-left.html">Our process</a></li>
-            <li><a href="pages/sidebar-right.html">Services</a></li>
-            <li><a href="pages/basic-grid.html">Contact us</a></li>
-            <li><a class="last_elem" href="pages/basic-grid.html">F.A.Q.</a></li>
-          </ul>
-        </li>
-        <li><a class="nav_product" href="#">Product</a></li>
-        <li><a class="nav_blog" href="#">Blog</a></li>
-        <li><a class="nav_work" href="#">Work</a></li>
-        <li><a class="nav_startAproject" href="#">Start a project</a></li>
-        <li  class="menuIcon">
-          <div>
-            <div class="line1"></div>
-            <div class="line2"></div>
-            <div class="line3"></div>
-          </li>
-      </ul>
-    </nav>
+
+	<div class="container header">
+			<div class="container">
+		
+				<div class="row header__menu-with-logo">
+					<!-- Row with menu and logo -->
+		
+		
+					<div class="col-lg-1 col-md-1 d-flex align-items-center p-0">
+						<!-- Logo -->
+						<img src="img/Block 1 - Header/logo.png" alt="logo">
+					</div>
+					<!-- Logo -->
+		
+					<div class="col-lg-11 col-md-11 d-flex justify-content-end p-0 ">
+						<!-- Menu -->
+		
+		
+						<div class="menu">
+							<ul class="nav nav-pills">
+								<li class="nav-item">
+									<a class="nav-link active uppercase homeMenuButton" href="#">Home</a>
+								</li>
+								<li class="nav-item dropdown">
+									<a class="nav-link dropdown-toggle uppercase  outline" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+									 aria-expanded="false">Pages</a>
+									<div class="dropdown-menu dropdown-menu-right">
+										<div class="wrapperForDropdomnUpArrow">
+											<div class="dropdownUpArrow">
+											</div>
+										</div>
+										<a class="dropdown-item uppercase aboutUs" href="#">About us</a>
+										<a class="dropdown-item uppercase" href="#">Company</a>
+										<a class="dropdown-item uppercase" href="#">Our process</a>
+										<a class="dropdown-item uppercase" href="#">Services</a>
+										<a class="dropdown-item uppercase" href="#">Contact us</a>
+										<a class="dropdown-item uppercase FAQ" href="#">F.A.Q.</a>
+									</div>
+								</li>
+								<li class="nav-item dropdown">
+									<a class="nav-link dropdown-toggle uppercase  outline" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+									 aria-expanded="false">Elements</a>
+									<div class="dropdown-menu dropdown-menu-right">
+										<div class="wrapperForDropdomnUpArrow">
+											<div class="dropdownUpArrow">
+											</div>
+										</div>
+										<a class="dropdown-item uppercase aboutUs" href="#">About us</a>
+										<a class="dropdown-item uppercase" href="#">Company</a>
+										<a class="dropdown-item uppercase" href="#">Our process</a>
+										<a class="dropdown-item uppercase" href="#">Services</a>
+										<a class="dropdown-item uppercase" href="#">Contact us</a>
+										<a class="dropdown-item uppercase FAQ" href="#">F.A.Q.</a>
+									</div>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link uppercase outline" href="#">Product</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link uppercase outline" href="#">Blog</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link uppercase outline" href="#">Work</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link uppercase outline startAprojectMenuButton" href="#">Start a project</a>
+								</li>
+								<li class="nav-item wrapperForMenuIcon">
+									<div class="menuIcon">
+										<div class="line1"></div>
+										<div class="line2"></div>
+										<div class="line3"></div>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<!-- Menu -->
+		
+				</div>
+		
+				<div class="row header__title-1 mx-auto">
+					<div class="col-lg-12 col-md-12 p-0">
+						<span class="uppercase">Get Some
+							<br> Fresh Air</span>
+					</div>
+				</div>
+		
+				<div class="row header__title-2 mx-auto">
+					<div class="col-lg-12 col-md-12">
+						<span class="uppercase">Fjord - Modern Landing Page</span>
+					</div>
+				</div>
+		
+				<div class="row header__features mx-auto">
+		
+					<div class="col-lg-4 col-md-4 header__features__mail">
+						<img src="img/Block 1 - Header/mail.png" alt="mail">
+						<span class="header__features__mail__title uppercase">Get a customized
+							<br> email address and more</span>
+						<span class="header__features__mail__text">Looking cautiously round, to ascer-
+							<br>tain that they were not overheard,
+							<br> the two hags cowered nearer to the
+							<br> fire, and chuckled heartilly.</span>
+						<a class="header__features__link uppercase" href="#">Learn more</a>
+					</div>
+		
+		
+		
+					<div class="col-lg-4 col-md-4 header__features__edit">
+						<img src="img/Block 1 - Header/edit.png" alt="edit">
+						<span class="header__features__edit__title uppercase">40 million high
+							<br> quality images</span>
+						<span class="header__features__edit__text">At first, for some time. I was not able to
+							<br> answer him one word, but as he had
+							<br> taken me in his arms I held fact by him,
+							<br> or I should have fallen to the ground.</span>
+						<a class="header__features__link uppercase" href="#">Learn more</a>
+					</div>
+		
+		
+		
+					<div class="col-lg-4 col-md-4 header__features__bage">
+						<img src="img/Block 1 - Header/bage.png" alt="bage">
+						<span class="header__features__bage__title uppercase">Create a simple logo
+							<span class="badge-new">new</span>
+						</span>
+						<span class="header__features__bage__text">She gave my mother such a turn,
+							<br> that I have always been convinced I
+							<br> am indebted to Miss Betsey for
+							<br> having been born on a Friday.</span>
+						<a class="header__features__link uppercase" href="#">Get started</a>
+					</div>
+		
+				</div>
+				<!-- Features -->
+			</div>
+	</div>
 
 
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+	 crossorigin="anonymous"></script>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+	 crossorigin="anonymous"></script>
 
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+	 crossorigin="anonymous"></script>
 
-  <script src="js/script.js"></script>
+	<script src="js/script.js"></script>
 </body>
+
 </html>
