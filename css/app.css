@@ -185,15 +185,26 @@ img {
   color: #232323;
 }
 
+/* ==============================
+ *        BLOCK 2 - iPhone
+ * ============================== */
 .block_2-iphone {
+  background-color: #26e6e6;
+  background-image: url("../img/Block 2 - iPhone/Iphone and buttons.png");
+  background-repeat: no-repeat;
   max-width: 1600px;
+  height: 900px;
 }
 
+/* =========== Window ============ */
 .block_2-iphone__window {
+  position: absolute;
+  top: 118px;
+  right: 240px;
   width: 384px;
   height: 674px;
   border-radius: 2px;
-  border: 1px solid red;
+  background-color: #fff;
 }
 
 .block_2-iphone__window a {
