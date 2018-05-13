@@ -18,6 +18,22 @@ img {
   height: auto;
 }
 
+a {
+  color: #232323;
+}
+
+a :active {
+  color: #232323;
+}
+
+a :visited {
+  color: #232323;
+}
+
+a :hover {
+  color: #232323;
+}
+
 .uppercase {
   text-transform: uppercase;
 }
@@ -35,7 +51,7 @@ img {
 .block_1-header {
   background-image: url("../img/Block 1 - Header/bg.png");
   background-repeat: no-repeat;
-  max-width: 1600px;
+  background-size: 100% 897px;
 }
 
 .header__menu-with-logo {
@@ -170,7 +186,6 @@ img {
 
 .header__features__link {
   margin-top: 18px;
-  color: #232323;
 }
 
 .header__features__link:hover {
@@ -279,6 +294,47 @@ img {
   font-size: 1.5em;
   line-height: 26px;
   font-weight: 300;
+}
+
+.block_4-features {
+  padding-top: 109px;
+  padding-bottom: 102px;
+}
+
+.block_4-features__1 {
+  margin-left: 70px;
+}
+
+.block_4-features__2 {
+  margin-left: 65px;
+}
+
+.block_4-features__3 {
+  margin-left: 25px;
+}
+
+.block_4-features div div div {
+  text-align: left;
+  padding: 0;
+  width: 231px;
+}
+
+.block_4-features a {
+  letter-spacing: 0.6px;
+}
+
+.block_4-features__2 a, .block_4-features__3 a {
+  margin-top: 38px;
+}
+
+.block_4-features__title {
+  font-size: 1.3333333333em;
+}
+
+.block_4-features__text {
+  font-size: 1.1666666667em;
+  opacity: 0.5;
+  line-height: 22px;
 }
 
 /* ==============================
