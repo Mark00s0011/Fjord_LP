@@ -22,15 +22,15 @@ a {
   color: #232323;
 }
 
-a :active {
+a:active {
   color: #232323;
 }
 
-a :visited {
+a:visited {
   color: #232323;
 }
 
-a :hover {
+a:hover {
   color: #232323;
 }
 
@@ -276,6 +276,9 @@ a :hover {
   margin-left: 24px;
 }
 
+/* ==============================
+ *        BLOCK 3 - Text
+ * ============================== */
 .block_3-text {
   padding-top: 120px;
   padding-bottom: 46px;
@@ -296,6 +299,9 @@ a :hover {
   font-weight: 300;
 }
 
+/* ==============================
+ *        BLOCK 4 - Features
+ * ============================== */
 .block_4-features {
   padding-top: 109px;
   padding-bottom: 102px;
@@ -335,6 +341,56 @@ a :hover {
   font-size: 1.1666666667em;
   opacity: 0.5;
   line-height: 22px;
+}
+
+/* ==============================
+ *        BLOCK 5 - iPad
+ * ============================== */
+.block_5-ipad {
+  width: 1600px;
+}
+
+.block_5-ipad__window {
+  background-color: #000;
+  height: 750px;
+  width: 1370px;
+  margin-left: -135px;
+  padding-left: 118px;
+  padding-top: 118px;
+}
+
+.block_5-ipad__title {
+  color: #fff;
+  font-weight: 100;
+  font-size: 6em;
+  line-height: 80px;
+}
+
+.block_5-ipad__text {
+  opacity: 0.5;
+  color: #fff;
+  font-size: 1.1666666667em;
+  line-height: 22px;
+  margin-top: 40px;
+  margin-left: 5px;
+}
+
+.block_5-ipad a {
+  margin-top: 164px;
+  text-align: center;
+  letter-spacing: 0.6px;
+  color: #000;
+  line-height: 50px;
+  background-color: #26e6e6;
+  border-radius: 25px;
+  width: 180px;
+  margin-left: 13px;
+}
+
+.block_5-ipad img {
+  position: absolute;
+  top: 265px;
+  left: 478px;
 }
 
 /* ==============================
