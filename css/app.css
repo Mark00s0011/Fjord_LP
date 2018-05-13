@@ -188,18 +188,6 @@ a:hover {
   margin-top: 18px;
 }
 
-.header__features__link:hover {
-  color: #232323;
-}
-
-.header__features__link:visited {
-  color: #232323;
-}
-
-.header__features__link:active {
-  color: #232323;
-}
-
 /* ==============================
  *        BLOCK 2 - iPhone
  * ============================== */
@@ -348,6 +336,7 @@ a:hover {
  * ============================== */
 .block_5-ipad {
   width: 1600px;
+  height: 1006px;
 }
 
 .block_5-ipad__window {
@@ -391,6 +380,87 @@ a:hover {
   position: absolute;
   top: 265px;
   left: 478px;
+}
+
+/* ==============================
+ *  BLOCK 6 - Platform fearutes
+ * ============================== */
+.block_6-platform {
+  padding-top: 52px;
+  padding-bottom: 73px;
+}
+
+/* ========== Title ==========*/
+.block_6-platform__main-title-title {
+  letter-spacing: 0.6px;
+  color: #000;
+  margin-bottom: 30px;
+}
+
+.block_6-platform__main-title-text {
+  font-size: 1.5em;
+  line-height: 26px;
+  margin-bottom: 78px;
+}
+
+/* ========== Features ==========*/
+.block_6-platform__title {
+  font-size: 1.5em;
+  line-height: 24px;
+  margin-top: -5px;
+}
+
+.block_6-platform__text {
+  font-size: 1.1666666667em;
+  opacity: 0.5;
+  line-height: 22px;
+  margin-top: -6px;
+  margin-bottom: 25px;
+}
+
+.block_6-platform__title-and-text__dashboard, .block_6-platform__title-and-text__customize {
+  padding-left: 27px;
+}
+
+.block_6-platform__title-and-text__discussions, .block_6-platform__title-and-text__ecommerce {
+  padding-left: 22px;
+}
+
+.block_6-platform__title-and-text__mobile, .block_6-platform__title-and-text__statistics {
+  padding-left: 15px;
+}
+
+.block_6-platform__dashboard {
+  padding-left: 90px;
+}
+
+.block_6-platform__discussions {
+  padding-left: 60px;
+}
+
+.block_6-platform__mobile {
+  padding-left: 14px;
+}
+
+.block_6-platform__customize {
+  padding-left: 90px;
+}
+
+.block_6-platform__ecommerce {
+  padding-left: 56px;
+}
+
+.block_6-platform__ecommerce img {
+  margin-top: 4px;
+  margin-right: 20px;
+}
+
+.block_6-platform__statistics {
+  padding-left: 14px;
+}
+
+.block_6-platform__row-1 {
+  margin-bottom: 58px;
 }
 
 /* ==============================
