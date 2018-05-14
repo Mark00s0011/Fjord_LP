@@ -514,10 +514,77 @@ a:hover {
   display: none;
 }
 
+/* ==============================
+ *        BLOCK 8 - DIY
+ * ============================== */
 .block_8-DIY {
   padding-top: 93px;
-  height: 1409px;
+  height: 1410px;
   max-width: 1600px;
+}
+
+.block_8-DIY span {
+  color: #000;
+  font-size: 2.1666666667em;
+  font-weight: 900;
+  margin-top: -10px;
+  margin-left: 60px;
+  display: block;
+}
+
+.block_8-DIY img {
+  position: absolute;
+}
+
+.block_8-DIY :nth-child(2) {
+  top: 15px;
+  left: 270px;
+}
+
+.block_8-DIY :nth-child(3) {
+  top: 55px;
+  left: 698px;
+}
+
+.block_8-DIY :nth-child(4) {
+  top: 300px;
+  right: 0;
+}
+
+.block_8-DIY :nth-child(5) {
+  top: 520px;
+  left: 320px;
+}
+
+.block_8-DIY :nth-child(6) {
+  top: 628px;
+  left: 0;
+}
+
+.block_8-DIY :nth-child(7) {
+  top: 775px;
+  left: 290px;
+}
+
+.block_8-DIY :nth-child(8) {
+  top: 795px;
+  left: 922px;
+}
+
+/* ==============================
+ *        BLOCK 9 - Join
+ * ============================== */
+.block_9-join {
+  height: 240px;
+  border: 1px solid red;
+  color: #000;
+  font-size: 6em;
+  font-weight: 100;
+}
+
+.block_9-join p {
+  margin-top: 13px;
+  margin-left: 12px;
 }
 
 /* ==============================
