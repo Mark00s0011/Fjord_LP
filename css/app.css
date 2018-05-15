@@ -756,6 +756,101 @@ a:hover {
 }
 
 /* ==============================
+ *       BLOCK 11 - Footer
+ * ============================== */
+.block_11-footer__wrapper {
+  max-width: 1600px;
+  height: 878px;
+}
+
+.block_11-footer__bg {
+  position: absolute;
+  top: 7449px;
+  z-index: 1;
+}
+
+.block_11-footer {
+  max-width: 986px;
+}
+
+.block_11-footer__title {
+  color: #000000;
+  font-weight: 900;
+  font-size: 7.5em;
+  line-height: 120px;
+  text-align: right;
+  letter-spacing: 1px;
+  margin-bottom: 228px;
+}
+
+.block_11-footer__window {
+  background-color: #000;
+  border-radius: 2px;
+  max-width: 960px;
+  margin-left: -3px;
+  margin-bottom: 128px;
+  position: relative;
+  z-index: 2;
+}
+
+.block_11-footer__link-column-1 a, .block_11-footer__link-column-2 a, .block_11-footer__link-column-3 a {
+  display: block;
+  color: #fff;
+  letter-spacing: 1.2px;
+  line-height: 40px;
+}
+
+.block_11-footer__triangle {
+  margin-top: 46px;
+  margin-left: 39px;
+}
+
+.block_11-footer__link-column-1 {
+  margin-left: 35px;
+  margin-top: 39px;
+}
+
+.block_11-footer__link-column-2 {
+  margin-left: 39px;
+  margin-top: 39px;
+}
+
+.block_11-footer__link-column-3 {
+  margin-left: 58px;
+  margin-top: 39px;
+}
+
+.block_11-footer__made-by {
+  margin-top: 37px;
+  margin-right: 35px;
+  color: #fff;
+  opacity: 0.2;
+  letter-spacing: 1.1px;
+  font-size: 0.9166666667em;
+}
+
+.block_11-footer__logo {
+  margin-top: -6px;
+  margin-bottom: 75px;
+  margin-right: 35px;
+}
+
+a.block_11-footer__website {
+  margin-right: 40px;
+  letter-spacing: 0.12px;
+  color: #fff;
+  opacity: 0.2;
+}
+
+.block_11-footer__social {
+  margin-left: 80px;
+  margin-top: 17px;
+  margin-bottom: 48px;
+  opacity: 0.2;
+  width: 173px;
+}
+
+/* ==============================
    MODULE STYLES
    @mixin ============================= */
 /* ==============================
