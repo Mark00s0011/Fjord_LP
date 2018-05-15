@@ -761,11 +761,12 @@ a:hover {
 .block_11-footer__wrapper {
   max-width: 1600px;
   height: 878px;
+  position: relative;
 }
 
 .block_11-footer__bg {
   position: absolute;
-  top: 7449px;
+  bottom: 0;
   z-index: 1;
 }
 
