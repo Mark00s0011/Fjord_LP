@@ -15,34 +15,84 @@
 	margin-left: 60px
 	display: block
 
+.block_8-DIY a
+	display: inline-block
+	padding-left: 18px
+	padding-right: 18px
+	line-height: 42px
+	background-color: #26e6e6
+	border-radius: 2px
+	font-weight: 500
+	visibility: hidden
+	opacity: 0
+	transition: 0.5s
+	z-index: 2
 
-.block_8-DIY img
+.block_8-DIY__wrapper__overlay
+	width: 100%
+	height: 100%
+	background-color: #000
 	position: absolute
+	z-index: -1
+	opacity: 0
+	transition: 0.5s
 
-.block_8-DIY :nth-child(2)
+.block_8-DIY__wrapper:hover a
+	visibility: visible
+	opacity: 1
+	transition: 0.5s
+
+.block_8-DIY__wrapper:hover .block_8-DIY__wrapper__overlay
+ visibility: visible
+	opacity: 0.7
+	transition: 0.5s
+	z-index: 1
+
+.wrapper-1
 	top: 15px
 	left: 270px
+	background-image: url("../img/Block 8 - DIY/DIY 1.jpg")
+	width: 304px
+	height: 420px
 
-.block_8-DIY :nth-child(3)
+.wrapper-2
 	top: 55px
-	left: 698px
+	right: 270px
+	background-image: url("../img/Block 8 - DIY/DIY 2.jpg")
+	width: 632px
+	height: 420px
 
-.block_8-DIY :nth-child(4)
+.wrapper-3
 	top: 300px
 	right: 0
+	background-image: url("../img/Block 8 - DIY/DIY 3.jpg")
+	width: 174px
+	height: 420px
 
-.block_8-DIY :nth-child(5)
+.wrapper-4
 	top: 520px
 	left: 320px
+	background-image: url("../img/Block 8 - DIY/DIY 4.jpg")
+	width: 920px
+	height: 200px
 
-.block_8-DIY :nth-child(6)
+.wrapper-5
 	top: 628px
 	left: 0
+	background-image: url("../img/Block 8 - DIY/DIY 5.jpg")
+	width: 209px
+	height: 420px
 
-.block_8-DIY :nth-child(7)
+.wrapper-6
 	top: 775px
 	left: 290px
+	background-image: url("../img/Block 8 - DIY/DIY 6.jpg")
+	width: 468px
+	height: 420px
 
-.block_8-DIY :nth-child(8)
+.wrapper-7
 	top: 795px
-	left: 922px
+	right: 210px
+	background-image: url("../img/Block 8 - DIY/DIY 7.jpg")
+	width: 468px
+	height: 420px
