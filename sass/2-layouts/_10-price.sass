@@ -2,66 +2,58 @@
  *        BLOCK 10 - Price
  * ============================== */
 .block_10-price
-	// max-width: 
-	padding-top: 76px
+	max-width: 912px
+	padding-top: 50px
+	padding-bottom: 155px
+
+.block_10-price__block-1
+	margin-left: -10px
+
+.block_10-price__block-2
+ margin-left: 6px
+
+.block_10-price__block-3
+	margin-left: 20px
+
+
 
 .block_10-price__block-1, .block_10-price__block-2, .block_10-price__block-3
-	padding-top: 38px
 	width: 304px
 	height: 432px
-	border: 1px solid red
+	padding-top: 28px
 
-.block_10-price div div div:hover
+.block_10-price__overlay
+	position: absolute
+ width: 304px
+	height: 100%
+	z-index: -1
 	background-color: #000
+	opacity: 0
+	transition: 0.3s
 
+
+
+
+
+.block_10-price div div div:hover .block_10-price__overlay
+	opacity: 1
+	transition: 0.3s
+	
 .block_10-price div div div:hover .block_10-price__plan
 	color: #fff
-	transition: 0.4
+	transition: 0.3s
 
 .block_10-price div div div:hover .block_10-price__price
 	color: #fff
-	transition: 0.4
+	transition: 0.3s
 
 .block_10-price div div div:hover .block_10-price__text
 	color: #fff
-	transition: 0.4
+	transition: 0.3s
 
 .block_10-price div div div:hover .block_10-price__link
  background-color: #26e6e6 
-	transition: 0.4
-
-
-.block_10-price__overlay
-	border: 1px solid red
-	position: absolute
-
-
-
-
-// .block_10-price__overlay
-// 	width: 100%
-// 	height: 100%
-// 	background-color: #000
-// 	position: absolute
-// 	z-index: -1
-// 	transition: 0.5s
-
-// .block_8-DIY__wrapper:hover a
-// 	visibility: visible
-// 	opacity: 1
-// 	transition: 0.5s
-
-// .block_8-DIY__wrapper:hover .block_10-price__overlay
-//  visibility: visible
-// 	opacity: 0.7
-// 	transition: 0.5s
-// 	z-index: 1
-
-
-
-
-
-
+	transition: 0.3s
 
 
 
@@ -73,6 +65,8 @@
 	color: #000
 	font-weight: 600
 	margin-bottom: 28px
+	margin-top: 38px
+	transition: 0.3s
 
 .block_10-price__price
 	color: #000
@@ -80,6 +74,7 @@
 	font-size: 4.1666666667em
 	font-weight: 800
 	margin-bottom: 20px
+	transition: 0.3s
 
 .block_10-price__text
 	font-size: 1.1666666667em
@@ -88,6 +83,7 @@
 	font-weight: 500
 	opacity: 0.5
 	margin-bottom: 23px
+	transition: 0.3s
 	
 .block_10-price a
 	letter-spacing: 0.6px
@@ -97,3 +93,4 @@
 	padding: 0px 46px
 	margin-top: 22px
 	font-weight: 500
+	transition: 0.3s
