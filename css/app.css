@@ -338,6 +338,7 @@ a:hover {
  *        BLOCK 5 - iPad
  * ============================== */
 .block_5-ipad {
+  width: 1600px;
   height: 1006px;
 }
 
@@ -345,7 +346,7 @@ a:hover {
   background-color: #000;
   height: 750px;
   width: 1370px;
-  margin-left: 110px;
+  margin-left: -135px;
   padding-left: 118px;
   padding-top: 118px;
 }
@@ -381,7 +382,7 @@ a:hover {
 .block_5-ipad img {
   position: absolute;
   top: 265px;
-  right: 0;
+  left: 478px;
 }
 
 /* ==============================
