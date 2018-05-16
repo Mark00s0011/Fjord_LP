@@ -873,9 +873,10 @@ a.block_11-footer__website {
   margin: 0px -5px;
   -webkit-transition: 0.4s;
   transition: 0.4s;
+  font-size: 0.8333333333em;
 }
 
-.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+.nav-pills .nav-link.active {
   background-color: transparent;
   color: #000;
 }
@@ -893,6 +894,7 @@ a.block_11-footer__website {
   padding: 12.5px 69px 12.5px 22px;
   line-height: 12px;
   margin: 0px 0px 0px 0px;
+  font-size: 12px;
 }
 
 .dropdown-menu .aboutUs {
@@ -903,7 +905,7 @@ a.block_11-footer__website {
   padding: 12.5px 69px 20px 22px;
 }
 
-a.nav-link.dropdown-toggle:focus {
+.nav-pills .show > .nav-link {
   color: #fff;
   background: #000;
   border-radius: 2px;
