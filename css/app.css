@@ -194,6 +194,7 @@ a:hover {
 .block_2-iphone {
   background-image: url("../img/Block 2 - iPhone/Iphone and buttons.png");
   background-repeat: no-repeat;
+  background-size: 100%;
   max-width: 1600px;
   height: 900px;
 }
@@ -204,9 +205,8 @@ a:hover {
 
 /* =========== Window ============ */
 .block_2-iphone__window {
-  position: absolute;
-  top: 118px;
-  right: 240px;
+  margin-top: 118px;
+  margin-left: 25px;
   width: 384px;
   height: 674px;
   border-radius: 2px;
@@ -338,17 +338,18 @@ a:hover {
  *        BLOCK 5 - iPad
  * ============================== */
 .block_5-ipad {
-  width: 1600px;
   height: 1006px;
+  max-width: 1600px;
 }
 
 .block_5-ipad__window {
   background-color: #000;
   height: 750px;
-  width: 1370px;
-  margin-left: -135px;
+  width: 86%;
+  margin-left: 110px;
   padding-left: 118px;
   padding-top: 118px;
+  position: relative;
 }
 
 .block_5-ipad__title {
@@ -382,7 +383,8 @@ a:hover {
 .block_5-ipad img {
   position: absolute;
   top: 265px;
-  left: 478px;
+  right: 0;
+  width: 51%;
 }
 
 /* ==============================
