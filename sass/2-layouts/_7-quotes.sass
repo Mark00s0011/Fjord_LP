@@ -3,36 +3,39 @@
  * ============================== */
 
 .block_7-quotes
-	height: 385px
 	background-color: #f5f6f8
 	
 .block_7-quotes .gallery-cell
-	height: 385px
+	height: 24.0625vw
+	max-height: 385px
 	width: 50%
- margin-right: 26px
+ margin-right: 1.625vw
 	background-color: #fff
 
 .block_7-quotes .gallery-cell :nth-child(1)
 	position: absolute
-	top: 41px
-	left: 38px
+	top: 2.5625vw
+	left: 2.375vw
+	width: 1.5vw
 
 .block_7-quotes .gallery-cell :nth-child(4)
 	position: absolute
- bottom: 41px
-	right: 38px
+ bottom: 2.5625vw
+	right: 2.375vw
+	width: 1.5vw
 
 .block_7-quotes .gallery-cell :nth-child(2)
-	margin-top: 25px
-	margin-left: 10px
-	font-size: 3.5em
+	margin-top: 1.5625vw
+	margin-left: 0.625vw
+	font-size: 2.625vw
 	font-weight: 100
-	line-height: 50px
-	margin-bottom: 25px
+	line-height: 3.125vw
+	margin-bottom: 1.5625vw
 
 .block_7-quotes .gallery-cell :nth-child(3)
+	font-size: 0.75vw
 	color: #000
-	letter-spacing: 0.6px
+	letter-spacing: 0.0375vw
 	font-weight: 600
 
 .flickity-page-dots
@@ -40,3 +43,10 @@
 
 .flickity-button
 	display: none
+ 
+
+
+	
+@media screen and (max-width: 961px)
+	.block_7-quotes .gallery-cell :nth-child(3)
+		font-size: 1vw

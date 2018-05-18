@@ -2,8 +2,9 @@
  *  BLOCK 6 - Platform fearutes
  * ============================== */
 .block_6-platform
-	padding-top: 52px
+	padding-top: 3.25vw
 	padding-bottom: 73px
+	max-width: 1200px
 
 /* ========== Title ==========*/
 
@@ -46,6 +47,8 @@
 
 
 
+
+
 .block_6-platform__dashboard
 	padding-left: 90px
 
@@ -69,7 +72,55 @@
 	padding-left: 14px
 
 
+	
+
 
 
 .block_6-platform__row-1
 	margin-bottom: 58px
+
+.block_6-platform__features__w991
+	max-width: 700px
+	display: none
+
+.block_6-platform__features__w767
+		display: none
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1199px)
+  .block_6-platform__dashboard, .block_6-platform__discussions, .block_6-platform__mobile, .block_6-platform__customize, .block_6-platform__ecommerce, .block_6-platform__statistics
+			padding-left: 40px
+
+@media screen and (max-width: 991px)
+		.block_6-platform__features
+			display: none
+		.block_6-platform__features__w991
+			display: block
+
+@media screen and (max-width: 767px)
+	.block_6-platform__features__w991
+		display: none
+
+	.block_6-platform__features__w767
+		display: flex
+		
+		& .block_6-platform__dashboard, .block_6-platform__discussions, .block_6-platform__mobile, .block_6-platform__customize, .block_6-platform__ecommerce, .block_6-platform__statistics
+			padding: 0
+
+		& .block_6-platform__title-and-text__dashboard, .block_6-platform__title-and-text__customize
+			padding-left: 30px
+
+  & .block_6-platform__title-and-text__discussions, .block_6-platform__title-and-text__ecommerce
+			padding-left: 30px
+
+  & .block_6-platform__title-and-text__mobile, .block_6-platform__title-and-text__statistics
+			padding-left: 30px

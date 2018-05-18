@@ -9,6 +9,25 @@ $carousel.on('staticClick.flickity', function (event, pointer, cellElement, cell
 });
 
 
+
+
+/* ========== Block 1 - dropdown btn 748px ==========*/
+	function myFunction() {
+			var x = document.getElementById("myTopnav");
+			if (x.className === "topnav") {
+		x.className += " responsive";
+	} else {
+		x.className = "topnav";
+	}
+}
+
+
+
+
+
+
+
+
 // /*
 // ==============================
 // MENU HOVER EFFECT
